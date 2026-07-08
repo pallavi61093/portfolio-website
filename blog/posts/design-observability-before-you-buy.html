@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Design Observability Before You Buy It — Pallavi</title>
+  <meta name="description" content="Why the observability tool is the last decision you should make, not the first." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="../../index.html" class="nav__brand">Pallavi</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links">
+      <a href="../../index.html#home">Home</a>
+      <a href="../../index.html#about">About</a>
+      <a href="../../index.html#career">Career</a>
+      <a href="../index.html">Blog</a>
+      <a href="../../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="article">
+      <a href="../index.html" class="article__back">&larr; All posts</a>
+      <p class="article__meta">Observability &middot; 8 Jul 2026 &middot; 5 min read</p>
+      <h1 class="article__title">How to Design Observability Before You Buy It</h1>
+      <div class="article__body">
+        <p>
+          Most observability initiatives start with a demo. A vendor shows a beautiful dashboard,
+          the room nods, a purchase order follows — and six months later the tool is installed but
+          the questions it was meant to answer are still unanswered.
+        </p>
+        <p>
+          The tool should be the <em>last</em> decision you make, not the first. Here's the order
+          I recommend instead.
+        </p>
+
+        <h2>1. Start with the questions</h2>
+        <p>
+          Observability isn't about collecting data; it's about answering questions under pressure.
+          Before evaluating any platform, write down the questions your teams actually ask during an
+          incident: <em>Is the customer affected? What changed? Where is the latency coming from?</em>
+        </p>
+
+        <blockquote>
+          You don't have an observability problem — you have a question problem.
+        </blockquote>
+
+        <h2>2. Map questions to signals</h2>
+        <p>
+          Only once the questions are clear can you decide which signals — metrics, logs, traces,
+          events — you genuinely need, and at what cardinality and retention. This is where cost and
+          value get decided, long before a contract is signed.
+        </p>
+
+        <h2>3. Then, and only then, choose the tool</h2>
+        <p>
+          With questions and signals defined, tool selection becomes an objective exercise: which
+          platform answers our real questions, at our scale, for a cost we can defend? The demo stops
+          being a sales pitch and starts being a test.
+        </p>
+
+        <p>
+          This is a written companion to my Ignite talk at DevOpsDays Zürich. If your organisation is
+          about to "buy observability," I'd love to compare notes —
+          <a href="../../index.html#contact">get in touch</a>.
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pallavi. Built with care.</p>
+  </footer>
+
+  <script src="../../script.js"></script>
+</body>
+</html>

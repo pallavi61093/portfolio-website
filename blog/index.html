@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Pallavi</title>
+  <meta name="description" content="Writing by Pallavi on observability, SRE, AI, leadership, and life beyond technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="../index.html" class="nav__brand">Pallavi</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#career">Career</a>
+      <a href="../index.html#speaking">Speaking</a>
+      <a href="../index.html#community">Community</a>
+      <a href="index.html">Blog</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <p class="eyebrow">Writing &amp; Blogs</p>
+      <h1 class="display">Notes &amp; essays</h1>
+      <p class="center-prose prose">
+        Thoughts on observability, SRE, AI and leadership — alongside personal essays,
+        conference reflections, book notes and the occasional poem.
+      </p>
+    </section>
+
+    <!-- To add a new post: copy blog/posts/_template.html, fill it in,
+         then add a matching <a class="post-card"> entry below. -->
+    <div class="blog-list">
+      <a class="post-card" href="posts/design-observability-before-you-buy.html">
+        <p class="post-card__meta">Observability &middot; 8 Jul 2026</p>
+        <h2 class="post-card__title">How to Design Observability Before You Buy It</h2>
+        <p class="post-card__excerpt">
+          A written companion to my DevOpsDays Zürich Ignite talk: why the tool is the last
+          decision you should make, not the first.
+        </p>
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pallavi. Built with care.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
