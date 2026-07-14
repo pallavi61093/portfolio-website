@@ -4,15 +4,11 @@ A single-page personal portfolio (plus a blog) for **Pallavi Agrawal** — Techn
 Leader, Speaker, Community Builder & Writer. Built as a plain static site (HTML + CSS +
 a little JavaScript) so it can be hosted on GitHub Pages with zero build tooling.
 
-The design is an editorial cream-and-navy theme inspired by a Canva template: serif
-display headings (Playfair Display), a clean sans body (Inter), alternating light/dark
-sections, and a contact footer.
-
 ## Structure
 
 ```
 portfolio-website/
-├── index.html          # The main one-page site (hero, about, career, speaking, community, writing, now, contact)
+├── index.html          # The main one-page site (home, about, career, speaking, community, writing, now, contact)
 ├── styles.css          # All styling (shared by the site and the blog)
 ├── script.js           # Mobile nav toggle + footer year
 ├── .nojekyll           # Tells GitHub Pages NOT to run Jekyll (keeps _template.html etc.)
@@ -61,11 +57,3 @@ Then enable Pages:
 4. After a minute, your site is live at:
 
    **https://pallavi61093.github.io/portfolio-website/**
-
-## Things to double-check / personalise
-
-- **LinkedIn URL** — currently set to `https://www.linkedin.com/in/pallavi-agrawal/` as a
-  best guess. Update it in `index.html` (hero social link + contact section) if different.
-- **Email** — set to `pallavi.61093@gmail.com` (from your CV).
-- **Photo** — add `assets/pallavi.jpg`.
-- **Talks / posts** — add more as you go.
