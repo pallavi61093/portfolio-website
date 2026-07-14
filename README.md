@@ -61,11 +61,3 @@ Then enable Pages:
 4. After a minute, your site is live at:
 
    **https://pallavi61093.github.io/portfolio-website/**
-
-## Things to double-check / personalise
-
-- **LinkedIn URL** — currently set to `https://www.linkedin.com/in/pallavi-agrawal/` as a
-  best guess. Update it in `index.html` (hero social link + contact section) if different.
-- **Email** — set to `pallavi.61093@gmail.com` (from your CV).
-- **Photo** — add `assets/pallavi.jpg`.
-- **Talks / posts** — add more as you go.
