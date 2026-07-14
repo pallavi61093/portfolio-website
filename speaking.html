@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public Speaking — Pallavi Agrawal</title>
+  <meta name="description" content="Public speaking by Pallavi Agrawal — talks on SRE, observability, AI in IT operations, systems thinking and engineering leadership." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="index.html" class="nav__brand">Pallavi Agrawal</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="career.html">Career</a>
+      <a href="speaking.html" class="is-active">Public Speaking</a>
+      <a href="community.html">Community</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="band band--dark">
+      <div class="band__inner">
+        <div class="split">
+          <div class="split__left">
+            <div class="starburst" aria-hidden="true">
+              <svg viewBox="0 0 100 100" width="72" height="72"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
+            </div>
+            <p class="eyebrow eyebrow--light">Public Speaking</p>
+            <h1 class="display">Sharing ideas that<br />simplify technology.</h1>
+            <p>
+              Public speaking has become one of my favourite ways to learn, connect, and contribute
+              to the technology community. I enjoy speaking about topics that bridge engineering,
+              leadership, and systems thinking.
+            </p>
+          </div>
+          <div class="split__right">
+            <figure class="speaking__photo">
+              <img src="assets/pallavi-speaking.jpg" alt="Pallavi speaking on stage at DevOpsDays Zürich" onerror="this.classList.add('is-placeholder');this.alt='Add your conference photo at assets/pallavi-speaking.jpg';" />
+              <figcaption>On stage at DevOpsDays Zürich</figcaption>
+            </figure>
+            <p class="subhead subhead--light speaking__topics-label">Key speaker topics</p>
+            <ul class="chips chips--light">
+              <li>Site Reliability Engineering</li>
+              <li>Observability</li>
+              <li>AI in IT Operations</li>
+              <li>Technology Strategy</li>
+              <li>Systems Thinking</li>
+              <li>Engineering Leadership</li>
+              <li>Community Building</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="subhead subhead--light talks-heading">Recent Talks</p>
+        <div class="talks-grid">
+          <article class="talk-card">
+            <div class="video">
+              <iframe src="https://www.youtube.com/embed/goWfM0IM-hs" title="How to Design Observability Before You Buy It — DevOpsDays Zürich" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <h3 class="talk__title">How to Design Observability Before You Buy It</h3>
+            <p class="talk__venue">DevOpsDays Zürich — Ignite Talk</p>
+            <a class="talk__link" href="https://www.youtube.com/watch?v=goWfM0IM-hs&feature=youtu.be" target="_blank" rel="noopener">Watch on YouTube &rarr;</a>
+          </article>
+          <article class="talk-card">
+            <div class="video">
+              <iframe src="https://drive.google.com/file/d/1V0VElM70YrVD0jdvre12NFTemlY_t1kL/preview" title="Strategic Thinking beyond Systems — reher*sal conference Hamburg" allow="autoplay" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <h3 class="talk__title">Strategic Thinking beyond Systems: Drawing Parallels between IT Frameworks and Life</h3>
+            <p class="talk__venue">reher*sal conference — Hamburg</p>
+            <a class="talk__link" href="https://drive.google.com/file/d/1V0VElM70YrVD0jdvre12NFTemlY_t1kL/view?usp=sharing" target="_blank" rel="noopener">Watch the recording &rarr;</a>
+          </article>
+        </div>
+
+        <p class="note talks-note">
+          I'm always excited to collaborate with Conferences, Meetups, Podcasts and Organisations
+          looking for engaging technical talks. Have an idea for collaboration?
+          <a href="mailto:pallavi.61093@gmail.com">DM me here</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pallavi Agrawal. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

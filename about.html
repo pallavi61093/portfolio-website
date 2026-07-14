@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Pallavi Agrawal</title>
+  <meta name="description" content="About Pallavi Agrawal — from India to Germany, a decade in technology, and building communities where people feel they belong." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="index.html" class="nav__brand">Pallavi Agrawal</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="is-active">About</a>
+      <a href="career.html">Career</a>
+      <a href="speaking.html">Public Speaking</a>
+      <a href="community.html">Community</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="band band--dark">
+      <div class="band__inner">
+        <p class="eyebrow eyebrow--light center">About Me</p>
+        <h1 class="display center">Engineer by profession.<br />Curious human by nature.</h1>
+
+        <div class="feature">
+          <figure class="feature__photo">
+            <img src="assets/pallavi-water.jpg" alt="Pallavi sitting by the water with a laptop" onerror="this.classList.add('is-placeholder');this.alt='Add your photo at assets/pallavi-water.jpg';" />
+          </figure>
+          <div class="feature__body">
+            <p>
+              Growing up in India, I have always been fascinated by problem solving and understanding
+              how things worked. That curiosity eventually became a career in technology, where I've
+              spent more than 10 years at companies like BlackRock and Accenture helping organizations
+              solve complex IT operational and reliability challenges.
+            </p>
+            <p>
+              In 2021 I moved to Germany to continue that journey. Living and working in a new country
+              taught me things I did not even realise I needed to know. It strengthened my resilience,
+              broadened my perspective and inspired me to create spaces where people feel supported as
+              they build their careers—just like I would want one. Hence I founded a Women in Technology
+              community in Hamburg which has about 900+ members as of today.
+            </p>
+            <p>
+              Over the years, I've realised that my interests extend far beyond technology. I enjoy
+              simplifying complexity—whether I'm designing an Observability strategy, facilitating an
+              SRE workshop, speaking on stage about my learnings, mentoring someone through a career
+              decision, writing about personal growth or organising events that bring people together.
+            </p>
+            <p class="about__closing">
+              When I am not working, you'll usually find me planning my next trip, training for my next
+              marathon, somewhere by the water with a book or catching the sunset :)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pallavi Agrawal. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
