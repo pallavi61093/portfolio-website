@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currently Exploring — Pallavi Agrawal</title>
+  <meta name="description" content="A collection of things Pallavi Agrawal is currently into — writing, travel, puzzles, cooking, AI and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="index.html" class="nav__brand">Pallavi Agrawal</a>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="career.html">Career</a>
+      <a href="speaking.html">Public Speaking</a>
+      <a href="community.html">Community</a>
+      <a href="index.html#writing">Writing</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="band band--light">
+      <div class="band__inner">
+        <p class="eyebrow center">Currently Exploring</p>
+        <h1 class="display center">This space is always<br />under construction.</h1>
+        <div class="prose center-prose">
+          <p>
+            I am an avid learner, and I have a habit of collecting interests. Since there are
+            a myriad of things I am into, this space is always under construction :)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band--light exploring-grid-section">
+      <div class="band__inner">
+        <div class="explore-grid">
+
+          <!-- Writing -->
+          <div class="explore-tile explore-tile--wide" tabindex="0" aria-label="Writing">
+            <div class="explore-tile__img">
+              <img src="assets/explore-writing.jpg" alt="Writing" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">Writing</h2>
+              <p class="explore-tile__sub">Essays, poetry &amp; reflections</p>
+            </div>
+          </div>
+
+          <!-- In the kitchen -->
+          <div class="explore-tile" tabindex="0" aria-label="In the kitchen">
+            <div class="explore-tile__img">
+              <img src="assets/explore-kitchen.jpg" alt="In the kitchen" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">In the kitchen</h2>
+              <p class="explore-tile__sub">Recipes &amp; experiments</p>
+            </div>
+          </div>
+
+          <!-- Puzzler -->
+          <div class="explore-tile" tabindex="0" aria-label="Puzzler">
+            <div class="explore-tile__img">
+              <img src="assets/explore-puzzles.jpg" alt="Puzzler" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">Puzzler</h2>
+              <p class="explore-tile__sub">Crosswords, jigsaws &amp; more</p>
+            </div>
+          </div>
+
+          <!-- Solo travel -->
+          <div class="explore-tile explore-tile--wide" tabindex="0" aria-label="Solo travel">
+            <div class="explore-tile__img">
+              <img src="assets/explore-travel.jpg" alt="Solo travel" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">Solo travel</h2>
+              <p class="explore-tile__sub">Latest journal &amp; destinations</p>
+            </div>
+          </div>
+
+          <!-- What I'm reading -->
+          <div class="explore-tile explore-tile--full" tabindex="0" aria-label="What I'm reading this month">
+            <div class="explore-tile__img">
+              <img src="assets/explore-reading.jpg" alt="Books" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">What I'm reading this month</h2>
+              <p class="explore-tile__sub">Current picks &amp; notes</p>
+            </div>
+          </div>
+
+          <!-- AI notes -->
+          <div class="explore-tile" tabindex="0" aria-label="AI notes">
+            <div class="explore-tile__img">
+              <img src="assets/explore-ai.jpg" alt="AI notes" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">AI notes</h2>
+              <p class="explore-tile__sub">Observations &amp; experiments</p>
+            </div>
+          </div>
+
+          <!-- Dot-to-dot -->
+          <div class="explore-tile" tabindex="0" aria-label="Dot-to-dot">
+            <div class="explore-tile__img">
+              <img src="assets/explore-dots.jpg" alt="Dot-to-dot" onerror="this.style.display='none'" />
+              <div class="explore-tile__overlay"></div>
+            </div>
+            <div class="explore-tile__body">
+              <h2 class="explore-tile__title">Dot-to-dot</h2>
+              <p class="explore-tile__sub">Connecting ideas across fields</p>
+            </div>
+          </div>
+
+        </div>
+        <p class="exploring-note center">More coming soon — this page grows with me.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pallavi Agrawal. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

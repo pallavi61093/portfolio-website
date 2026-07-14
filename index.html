@@ -4,22 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pallavi Agrawal — Technologist, Public Speaker, Community Builder & Writer</title>
-  <meta name="description" content="Personal site of Pallavi Agrawal — Technologist, Public Speaker, Community Builder and Writer. SRE, Observability, AIOps, community building and writing." />
-
-  <!-- Open Graph -->
+  <meta name="description" content="Personal site of Pallavi Agrawal — Technologist, Public Speaker, Community Builder and Writer." />
   <meta property="og:title" content="Pallavi Agrawal — Technologist, Public Speaker, Community Builder & Writer" />
-  <meta property="og:description" content="I help organisations build reliable technology by connecting Engineering, Strategy and People." />
+  <meta property="og:description" content="Connecting Engineering, Strategy and People." />
   <meta property="og:type" content="website" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ===== NAV ===== -->
   <header class="nav" id="top">
     <a href="index.html" class="nav__brand">Pallavi Agrawal</a>
     <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -31,7 +26,7 @@
       <a href="career.html">Career</a>
       <a href="speaking.html">Public Speaking</a>
       <a href="community.html">Community</a>
-      <a href="blog/index.html">Blog</a>
+      <a href="index.html#writing">Writing</a>
       <a href="index.html#contact">Contact</a>
     </nav>
   </header>
@@ -40,13 +35,19 @@
 
     <!-- ===== HERO ===== -->
     <section class="hero" id="home">
-      <div class="hero__frame">
+      <div class="hero__frame hero__frame--tall">
         <div class="hero__text">
           <h1 class="hero__name">Hi, I'm Pallavi.</h1>
           <p class="hero__tagline">Technologist. Public Speaker. Community Builder. Writer</p>
-          <p class="hero__lede">
-            I help organisations build reliable technology by connecting Engineering,
-            Strategy and People.
+          <p class="hero__body">
+            With over a decade of experience in technology roles, I've worked at the intersection
+            of IT Operations, Site Reliability Engineering (SRE) and DevOps Teams helping
+            organisations design systems that are resilient, scalable and future-ready.
+          </p>
+          <p class="hero__body">
+            Outside of my professional work, I'm extremely passionate about bringing people
+            together—whether it is hosting Women in Tech community events, speaking at conferences,
+            mentoring women in technology, or writing about my learnings on life and leadership.
           </p>
           <div class="social" aria-label="Social links">
             <a href="https://www.linkedin.com/in/agrawalpallavi/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social__link">
@@ -61,24 +62,10 @@
           <img src="assets/pallavi.jpg" alt="Portrait of Pallavi Agrawal" onerror="this.classList.add('is-placeholder');this.alt='Add your photo at assets/pallavi.jpg';" />
         </div>
       </div>
-
-      <div class="hero__intro">
-        <p>
-          With over a decade of experience in technology consulting, I've worked at the
-          intersection of Site Reliability Engineering (SRE), Observability, AIOps, and IT
-          Operations, helping organisations design systems that are resilient, scalable,
-          and built for the future.
-        </p>
-        <p>
-          Outside of my professional work, I'm passionate about bringing people together—whether
-          it's organising community events, speaking at conferences, mentoring women in technology,
-          or writing about life and leadership.
-        </p>
-      </div>
     </section>
 
-    <!-- ===== ABOUT preview (dark) ===== -->
-    <section class="band band--dark preview">
+    <!-- ===== ABOUT preview ===== -->
+    <section class="band preview preview--about">
       <div class="band__inner">
         <div class="starburst" aria-hidden="true">
           <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
@@ -86,17 +73,20 @@
         <p class="eyebrow eyebrow--light">About Me</p>
         <h2 class="display">Engineer by profession.<br />Curious human by nature.</h2>
         <p class="preview__text">
-          From India to Germany, a decade in technology, and a belief that great systems—and
-          great communities—are intentionally designed.
+          From India to Germany, a decade in Technology, and a belief that great systems
+          and even better communities are intentionally designed.
         </p>
         <a class="btn" href="about.html">More about me</a>
       </div>
     </section>
 
-    <!-- ===== CAREER preview (light) ===== -->
-    <section class="band band--light preview">
+    <!-- ===== CAREER preview ===== -->
+    <section class="band preview preview--career">
       <div class="band__inner">
-        <p class="eyebrow">Career</p>
+        <div class="starburst" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
+        </div>
+        <p class="eyebrow eyebrow--light">Career</p>
         <h2 class="display">Building reliable systems that align<br />business goals to technical solutions.</h2>
         <p class="preview__text">
           More than ten years across BlackRock, Diconium and Accenture—working in SRE,
@@ -106,9 +96,12 @@
       </div>
     </section>
 
-    <!-- ===== SPEAKING preview (dark) ===== -->
-    <section class="band band--dark preview">
+    <!-- ===== SPEAKING preview ===== -->
+    <section class="band preview preview--speaking">
       <div class="band__inner">
+        <div class="starburst" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
+        </div>
         <p class="eyebrow eyebrow--light">Public Speaking</p>
         <h2 class="display">Sharing ideas that<br />simplify technology.</h2>
         <p class="preview__text">
@@ -119,10 +112,13 @@
       </div>
     </section>
 
-    <!-- ===== COMMUNITY preview (light) ===== -->
-    <section class="band band--light preview">
+    <!-- ===== COMMUNITY preview ===== -->
+    <section class="band preview preview--community">
       <div class="band__inner">
-        <p class="eyebrow">Community &amp; Mentorship</p>
+        <div class="starburst" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
+        </div>
+        <p class="eyebrow eyebrow--light">Community &amp; Mentorship</p>
         <h2 class="display">Building communities where<br />people feel they belong.</h2>
         <p class="preview__text">
           Founder of Radia, a 900+ member women in tech community in Hamburg, and an active
@@ -132,60 +128,60 @@
       </div>
     </section>
 
-    <!-- ===== BLOG preview (dark) ===== -->
-    <section class="band band--dark preview">
+    <!-- ===== WRITING preview ===== -->
+    <section class="band preview preview--writing" id="writing">
       <div class="band__inner">
+        <div class="starburst" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
+        </div>
         <p class="eyebrow eyebrow--light">Writing &amp; Blogs</p>
         <h2 class="display">Exploring ideas<br />beyond technology.</h2>
         <p class="preview__text">
           Notes and essays on observability, SRE, AI and leadership—alongside the quieter
-          moments beyond tech.
+          moments beyond tech. Find my writing on Substack and Medium.
         </p>
-        <a class="btn" href="blog/index.html">Read the blog</a>
+        <div class="btn-row">
+          <a class="btn" href="https://substack.com/@pallavi464969" target="_blank" rel="noopener">Read on Substack</a>
+          <a class="btn" href="https://medium.com/@pallavi.agrawal06" target="_blank" rel="noopener">Read on Medium</a>
+        </div>
       </div>
     </section>
 
-    <!-- ===== NOW (light) ===== -->
-    <section class="band band--light" id="now">
+    <!-- ===== CURRENTLY EXPLORING ===== -->
+    <section class="band preview preview--exploring" id="exploring">
       <div class="band__inner">
-        <p class="eyebrow center">What Am I Into Now?</p>
-        <h2 class="display center">Things I'm currently exploring.</h2>
-        <div class="prose center-prose">
-          <p>
-            I love learning, and my interests continue to evolve. Right now, I'm particularly excited
-            about exploring the connections between technology, people, and creativity.
-          </p>
+        <div class="starburst" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="60" height="60"><g fill="currentColor"><path d="M50 0l6 38 38-6-34 18 34 18-38-6-6 38-6-38-38 6 34-18-34-18 38 6z"/></g></svg>
         </div>
-        <ul class="chips center-chips">
-          <li>Artificial Intelligence &amp; its applications</li>
-          <li>Psychology &amp; human behaviour</li>
-          <li>Systems thinking &amp; decision-making</li>
-          <li>Storytelling &amp; creative writing</li>
-          <li>Public speaking</li>
-          <li>Mentoring &amp; coaching</li>
-          <li>Building meaningful communities</li>
-          <li>Personal branding</li>
-          <li>Travel, culture &amp; lifelong learning</li>
-        </ul>
+        <p class="eyebrow eyebrow--light">What am I into now?</p>
+        <h2 class="display">Currently Exploring.</h2>
+        <p class="preview__text">
+          I am an avid learner, and I have a habit of collecting interests. Since there are a myriad
+          of things I am into, this space is always under construction :)
+        </p>
+        <a class="btn" href="exploring.html">Take a look</a>
       </div>
     </section>
 
     <!-- ===== CONTACT ===== -->
-    <section class="band band--light contact" id="contact">
+    <section class="band band--blue contact" id="contact">
       <div class="band__inner">
-        <h2 class="display center contact__title">Connect with me</h2>
+        <h2 class="display center contact__title">Connect with me!</h2>
         <p class="prose center-prose">
           I'm open to speaking engagements, mentorship, community collaborations, and
           consulting conversations. The best way to reach me:
         </p>
         <div class="contact__grid">
           <div class="contact__col">
+            <p class="contact__label">Email</p>
             <a href="mailto:pallavi.61093@gmail.com" class="contact__value">Email</a>
           </div>
           <div class="contact__col">
+            <p class="contact__label">LinkedIn</p>
             <a href="https://www.linkedin.com/in/agrawalpallavi/" target="_blank" rel="noopener" class="contact__value">LinkedIn</a>
           </div>
           <div class="contact__col">
+            <p class="contact__label">Based in</p>
             <span class="contact__value contact__value--plain">Hamburg, Germany</span>
           </div>
         </div>
